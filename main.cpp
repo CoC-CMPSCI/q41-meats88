@@ -42,7 +42,8 @@ switch(choice){
     
     case 4: cout << "Program Stopped" << endl;
         break;
-    default:
+    default:  cout << "Program Stopped" << endl;
+    break;
 }
     return 0;
 }
