@@ -7,7 +7,7 @@ int main()
 {
     const double PI = 3.14159265358979;
     int choice;
-    double width, height, radius, base;
+    double width, height, radius, base, length;
     double area;
 
     cout << "Geometry Calculator\n";
@@ -40,7 +40,9 @@ switch(choice){
     cout << " the area is:" << area << endl;
     break;
     
-    case 4-99: cout << "Program Stopped" << endl;
-
+    case 4: cout << "Program Stopped" << endl;
+        break;
+    default:
+}
     return 0;
 }
