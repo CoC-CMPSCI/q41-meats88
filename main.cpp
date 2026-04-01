@@ -33,9 +33,14 @@ switch(choice){
     cout << "the area is:" << area << endl;
     break;
 
-    case 3:cout << "give
-
-    case 4:
+    case 3:cout << "give base and height fro triangle" << endl;
+    cin >> base >> height;
+    
+        area = base * height * 0.5;
+    cout << " the area is:" << area << endl;
+    break;
+    
+    case 4-99: cout << "Program Stopped" << endl;
 
     return 0;
 }
