@@ -19,9 +19,18 @@ int main()
     cin >> choice;
 
     // TODO
-
+switch(choice){
+    case 1:cout << "give radius for circle" << endl;
+        cin >> radius >> endl;
+        area = (3.14159) * (radius * radius)
     cout << left << setprecision(2) << fixed;
-    cout << "The area is " << area << endl;
+    cout << "The area is" << area << endl;
+    break;
+    case 2:
+
+    case 3:
+
+    case 4:
 
     return 0;
 }
