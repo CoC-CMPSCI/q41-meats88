@@ -40,9 +40,9 @@ switch(choice){
     cout << " the area is:" << area << endl;
     break;
     
-    case 4: cout << "Program Stopped" << endl;
+    case 4: cout << "Program wrong Stopped" << endl;
         break;
-    default:  cout << "Program Stopped" << endl;
+    default:  cout << "Program wrong Stopped" << endl;
     break;
 }
     return 0;
