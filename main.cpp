@@ -37,7 +37,8 @@ switch(choice){
     cin >> base >> height;
     
         area = base * height * 0.5;
-    cout << " the area is:" << area << endl;
+     cout << left << setprecision(2) << fixed;
+        cout << " the area is:" << area << endl;
     break;
     
     case 4: cout << "Program wrong Stopped" << endl;
